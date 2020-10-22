@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    display: flex;
+    background: white;
+}
+body{
+    font-family: 'Open Sans', sans-serif;   
+}
+.header_logo{
+    text-transform: capitalize;
+    font-size: 46px;
+    color: white;
+    margin: 23px 0px 16px 165px;
+}
+p .capital_letter{
+    padding: 14px 11px 16px 9px;
+    
+}
+p .secondary_letter{
+    background: white;
+    margin-left: 10px;
+}
+.capital_letter{
+   background: linear-gradient(#42eee3,#2ee2d6,#1fd0c4,#17c0b5,#0eb0a5,#0aa096);
+  
+}
+span{
+    color:#038c8c;
+}
+
+
+nav{
+
+}
+.main_nav a{
+    color: #6d6d6d;
+}
