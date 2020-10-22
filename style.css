@@ -39,7 +39,9 @@ span{
 nav{
  margin-left: 41%;
  margin-top: 41px;
+ font-size: 19px;
+ font-weight: 300;
 }
 .main_nav a{
-    color: #6d6d6d;
+    color: #565656;
 }
