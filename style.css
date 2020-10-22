@@ -13,6 +13,13 @@ header{
 body{
     font-family: 'Open Sans', sans-serif;   
 }
+.wrapper{
+    width: 76%;
+    margin:0 auto;
+}
+
+/* логотип */
+
 .header_logo{
     text-transform: capitalize;
     font-size: 46px;
@@ -26,22 +33,64 @@ p .capital_letter{
 p .secondary_letter{
     background: white;
     margin-left: 10px;
+    color:#038c8c;
 }
 .capital_letter{
    background: linear-gradient(#42eee3,#2ee2d6,#1fd0c4,#17c0b5,#0eb0a5,#0aa096);
   
 }
-span{
-    color:#038c8c;
-}
 
+/* меню */
 
 nav{
- margin-left: 41%;
- margin-top: 41px;
- font-size: 19px;
- font-weight: 300;
+    margin-left: 41%;
+    margin-top: 41px;
+    font-size: 19px;
+    font-weight: 300;
 }
 .main_nav a{
     color: #565656;
+}
+
+
+
+.banner{
+    background: linear-gradient(to left,#00787f,#0fc5b0 );
+    display: flex;
+}
+.app{
+    display: flex;
+}
+.app p{
+    text-transform: uppercase;
+    font-size: 21px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.present{
+    text-transform: uppercase;
+    font-size: 39px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.present_text{
+    font-size: 17px;
+    line-height: 36px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.buy{
+    background-color:  #54d3c3;
+    border: none;
+    font-size: 21px;
+
+    color: #ffffff;
+    font-weight: 300;
+}
+.buy img{
+    background-color: #259d8e;
+    padding: 13px 9px;
 }
