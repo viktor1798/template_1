@@ -52,10 +52,12 @@ nav{
     color: #565656;
 }
 
-
-
 .banner{
     background: linear-gradient(to left,#00787f,#0fc5b0 );
+}
+
+.banner_main{
+  
     display: flex;
 }
 .app{
@@ -82,15 +84,39 @@ nav{
     font-weight: 300;
 }
 
-.buy{
-    background-color:  #54d3c3;
-    border: none;
-    font-size: 21px;
 
-    color: #ffffff;
-    font-weight: 300;
+.slider{
+    display: flex;
+    position: absolute;
+    right:1px ;
 }
-.buy img{
-    background-color: #259d8e;
-    padding: 13px 9px;
+
+
+.block_1{
+    background-color: #059491;
+}
+.block_2{
+    background-color: #038587;
+}
+.block_3{
+    background-color: #017d82;
+}
+
+.block_1 img{
+    padding:29px 27px ;
+}
+.block_2 img{
+    padding:29px 27px ;
+}
+.block_3 img{
+    padding:29px 27px ;
+}
+
+.phone{
+    margin: 59px 90px 34px 140px ;
+}
+
+button {
+    background: #54d3c3;
+    border: none;
 }
